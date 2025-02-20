@@ -1,0 +1,18 @@
+.next_travel_subtitulo{
+    text-align: left;
+}
+
+.next_travel_titulo{
+    text-align: left;
+    margin-top: 8px;
+}
+
+.next_travel_conjunto_imagem_texto{
+    margin: 40px 0 40px;
+}
+
+.next_travel_imagem{
+    margin-bottom: 24px;
+    border-radius: 28px;
+    width: 100%;
+}

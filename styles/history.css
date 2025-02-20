@@ -1,0 +1,33 @@
+.history_subtitulo {
+    margin: 64px 0 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.history_titulo {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.history_texto {
+    margin-bottom: 64px;
+}
+
+.history_conjunto_um {
+    margin-bottom: 48px;
+}
+
+.history_conjunto_dois {
+    margin-bottom: 48px;
+}
+
+.history_conjunto_tres {
+    margin-bottom: 40px;
+}
+
+.history_imagem{
+    width: 100%;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+}

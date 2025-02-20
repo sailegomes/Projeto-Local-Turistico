@@ -1,0 +1,29 @@
+@import url('../styles/next_travel.css');
+@import url('../styles/history.css');
+@import url('../styles/final_text.css');
+@import url('../styles/footer.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-background: #F5F4F0;
+}
+
+body {
+    background-color: var(--cor-background);
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    padding: 88px 80px 0;
+}
