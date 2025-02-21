@@ -1,4 +1,11 @@
 footer {
     text-align: center;
     margin-bottom: 48px;
+    margin-top: -80px;
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
+}
+
+footer img{
+    vertical-align:top;
 }

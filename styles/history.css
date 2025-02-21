@@ -2,15 +2,19 @@
     margin: 64px 0 2px;
     text-align: left;
     text-transform: uppercase;
+    color: var(--cor-subtitulo);
 }
 
 .history_titulo {
     text-align: left;
     margin-bottom: 8px;
+    color: var(--cor-titulo);
+    font-size: 36px;
 }
 
 .history_texto {
     margin-bottom: 64px;
+    text-align: left;
 }
 
 .history_conjunto_um {
@@ -25,9 +29,72 @@
     margin-bottom: 40px;
 }
 
-.history_imagem{
-    width: 100%;
-    height: 350px;
+.history_imagem {
+    width: 1120px;
+    height: 375px;
     border-radius: 28px;
     object-fit: cover;
+}
+
+
+
+.history_conjunto_titulo {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.history_conjunto_texto {
+    text-align: left;
+    color: var(--cor-texto);
+}
+
+.div_lista {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul {
+    position: relative;
+    padding-left: 21px;
+    bottom: 2px;
+}
+
+li::marker {
+    color: var(--cor-texto);
+    font-size: 12px;
+}
+
+li span {
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+.div_titulo {
+    color: var(--cor-texto);
+    font-weight: bold;
+}
+
+.item_historia {
+    color: var(--cor-item-azul);
+    font-weight: bold;
+}
+
+.item_casais {
+    color: var(--cor-item-roxo);
+    font-weight: bold;
+}
+
+.item_familias {
+    color: var(--cor-item-rosa);
+    font-weight: bold;
+}
+
+.item_orcamento {
+    color: var(--cor-item-laranja);
+    font-weight: bold;
 }
